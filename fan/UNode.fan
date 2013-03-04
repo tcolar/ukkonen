@@ -14,6 +14,8 @@ class UNode
   ** The char charried by this node, null for the root node
   Int? char
 
+  // kepp min anx max of subnodes for faster search (implicit/explicit)??
+
   UEdge[] edges := [,]
 
   new make(Int? char)
